@@ -8,8 +8,8 @@ import (
 const (
 	GeoAPIURL     = "https://wft-geo-db.p.rapidapi.com/v1/geo/cities"
 	WeatherAPIURL = "https://api.openweathermap.org/data/2.5/"
-	GeoAPIKey     = "725da61bb4msha62f16f9088c9f5p149bacjsn64878ab1e119"
-	WeatherAPIKey = "6fd10402011053133439086242243d8e"
+	GeoAPIKey     = "YOUR_API_KEY"
+	WeatherAPIKey = "YOUR_API_KEY"
 )
 
 func GetGeoData() (string, error) {
